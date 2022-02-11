@@ -1,3 +1,26 @@
+/* accent color #2196F3 
+
+main text color #757575
+heading text color #212121
+accent white text color #ffffff
+
+backgroung main color #FFFFFF
+backgroung accent color #E5E5E5
+backgroung section color #2F303A
+backgroung team section color #F5F4FA
+*/
+:root {
+  --text-main-color: #757575;
+  --text-accent-color: #2196f3;
+
+  --bg-main-color: #ffffff;
+}
+
 body {
-  background-color: rgb(191, 224, 240);
+  background-color: var(--bg-main-color);
+  color: var(--text-main-color);
+}
+
+.list {
+  list-style: none;
 }
