@@ -32,7 +32,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #000000;
-
   text-decoration: none;
 }
 
@@ -40,23 +39,25 @@ body {
   color: var(--text-accent);
 }
 
+/* 
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+} */
+
+.contacts,
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-heading);
 }
 
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.contacts {
-  font-weight: 500;
+.site-nav {
+  /* font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em; */
+  color: var(--text-heading);
 }
 
 .link:hover,
@@ -72,7 +73,7 @@ body {
   text-align: center;
 }
 
-.sectin-order h2 {
+.sectin-order h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -180,7 +181,6 @@ body {
 .portfolio-selection .btn:focus {
   color: var(--text-white);
   background: var(--text-accent);
-  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   cursor: pointer;
 }
 
