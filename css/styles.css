@@ -39,11 +39,6 @@ body {
   color: var(--text-accent);
 }
 
-/* 
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
-} */
-
 .contacts,
 .site-nav {
   font-weight: 500;
@@ -53,10 +48,6 @@ body {
 }
 
 .site-nav {
-  /* font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em; */
   color: var(--text-heading);
 }
 
@@ -152,10 +143,14 @@ body {
 .footer .logo {
   color: var(--text-white);
 }
-.footer address {
+.address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.address p {
   color: var(--text-white);
 }
 
