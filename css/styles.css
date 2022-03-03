@@ -56,6 +56,9 @@ body {
   color: var(--text-accent);
 }
 
+.site-nav .is-active-page {
+  color: var(--text-accent);
+}
 /* main */
 
 /* sectin-order */
@@ -78,15 +81,16 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: var(--text-accent);
-  background: var(--text-white);
+  color: var(--text-white);
+  background: var(--text-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .sectin-order button:hover,
 .sectin-order button:focus {
-  color: var(--text-white);
-  background: var(--text-accent);
+  background: #188ce8;
 }
 
 /* benefits-section */
@@ -130,9 +134,18 @@ body {
   letter-spacing: 0.03em;
 }
 
-.card h3 {
+.team-section .card-description {
+  padding: 30px;
+}
+
+.team-section h3 {
   color: var(--text-heading);
   font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.team-section p {
+  margin: 0;
 }
 
 /* footer */
@@ -148,6 +161,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .address p {
@@ -179,7 +193,16 @@ body {
   cursor: pointer;
 }
 
-.portfolio-projects img:hover {
+.portfolio-projects .card-description {
+  padding: 20px;
+}
+
+.portfolio-projects a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio-projects a:hover img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -189,6 +212,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-heading);
+  margin: 0 0 4px 0;
 }
 
 .portfolio-projects p {
@@ -196,4 +220,5 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-main);
+  margin: 0;
 }
