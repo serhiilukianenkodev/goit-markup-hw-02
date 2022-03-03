@@ -129,18 +129,25 @@ body {
   background: var(--bg-main);
   text-align: center;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-section .card-description {
   padding: 30px;
+
+  /* font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em; */
 }
 
 .team-section h3 {
   color: var(--text-heading);
   font-weight: 500;
+  font-size: inherit;
+
   margin: 0 0 10px 0;
 }
 
